@@ -1,15 +1,16 @@
-# Chatbot Deployment with Flask and JavaScript
+Deploying a Chatbot with Flask and JavaScript
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
-- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
+Deployment Options:
+
+    1. Embed within a Flask App using Jinja2 Templates: You can integrate predictions directly into a Flask app that utilizes Jinja2 templates.
+    2. Serve as a Standalone Flask Prediction API: You can run the prediction API separately. The HTML and JavaScript files can be included in any frontend application with minor modifications and will run completely independently from the Flask app.
 
 ## Initial Setup:
-This repo currently contains the starter files.
+This repository currently contains the starter files
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ git clone https://github.com/budiprasetio/Chatbotdeeplearning
 $ cd chatbot-deployment
 $ python3 -m venv venv
 $ . venv/bin/activate
